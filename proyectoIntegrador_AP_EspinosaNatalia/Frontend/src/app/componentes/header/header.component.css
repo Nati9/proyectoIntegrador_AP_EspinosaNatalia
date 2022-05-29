@@ -1,0 +1,61 @@
+div{
+    background-color: #c4a1cb;
+    font-family: 'Dosis', sans-serif;
+}
+
+app-social{
+    float: right;
+    margin-top: 25px;
+}
+
+/* Estilo de foto de perfil y nombre*/
+
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 2%;
+        top: 400px;
+    }
+
+    /* etiqueta nombre */
+
+    #nombre{
+    font-weight:bold; 
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+    p{
+        text-align: center;
+        font-size:20px;
+    }
+}
+
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 35%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 35%;
+        top: 720px;
+    }
+
+    #nombre{
+        font-weight:bold; 
+        margin-top: 30%;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        font-size:18px;
+    }
+}
+
+

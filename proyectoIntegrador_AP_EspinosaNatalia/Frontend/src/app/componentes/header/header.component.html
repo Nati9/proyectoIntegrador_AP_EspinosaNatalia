@@ -1,0 +1,35 @@
+<div class="row">
+    <app-logo-ap></app-logo-ap>
+    <app-banner></app-banner>
+</div>
+
+<div class="row">
+    <div *ngIf="usuario">
+        <h1 id="nombre">
+            {{usuario.nombre}}
+            {{usuario.apellido}}
+
+            <p>Full stack developer Jr.</p>
+            
+        </h1>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <img src="../../../assets/Logos/NatiPerfil.jpg" class="img-fluid" id="fotodeperfil">
+    </div>
+    
+    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-8">
+        <span>
+            <h2>Acerca de mí</h2>
+            <p>Soy Natalia y estoy en el último año de Bioingeniería, de la Universidad Nacional de San Juan.
+            Comencé hace unos años a interiorizarme en el mundo IT y lo disfruto bastante.</p>
+            <p>Además estoy aprendiendo a crear páginas usando otras herramientas como Wordpress.</p>
+            <p>Me gusta mucho hacer deporte y actualmente practico crossfit a diario.
+               Amante de la naturaleza y dsifrutar del aire libre con mi familia y amigos. 
+               También de leer libros y seguir incorporando conocimientos mediante cursos, etc.
+            </p>
+        </span>
+    
+    </div>
+
+   
+</div>
